@@ -1,10 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.13'
-gem 'bcrypt-ruby', '>= 3.0.1'
+gem 'rails', '3.2.16'
+gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'faker', '>= 1.0.1'
 gem 'chronic'
 gem 'oai'
+gem 'nokogiri'
 gem 'pg'
 gem 'will_paginate'
 gem 'texticle', :require => 'texticle/rails'
